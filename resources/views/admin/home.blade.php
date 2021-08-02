@@ -15,6 +15,11 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                        <br><br>
+                        <a href="{{route('admin.timeSlots')}}" class="btn btn-success">Show Time Slots List</a>
+
+
                 </div>
             </div>
         </div>
